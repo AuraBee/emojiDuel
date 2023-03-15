@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+    background: linear-gradient(rgba(0, 0, 128, 0.674), gray);
+    height: 100vh;
+    color: #1d27e9;
+
+}
+
+h1 {
+    text-shadow: 0px 3px 0px rgb(6, 8, 36);
+    line-height: 24px;
+    transform: rotate(-9deg);
+    font-size: 350%;
+    line-height: 3rem;
+    margin-top: 0;
+    color:  gold;
+}
+
+.game-screen {
+    display:flex;
+   flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 1em;
+    padding: 2em;
+    background: linear-gradient( navy, blue); 
+    border-radius: 2em;
+}
+
+
+#stage {
+    width: 100%;
+    height: 60px;
+    padding: 30px 0;
+    font-size: 70px;
+    margin: .5em 0 ; 
+    color: gold;
+}
+
+/* #btn-span {
+    display: flex;
+    background: gainsboro;
+} */
+
+#fightButton, #clearButton {
+    /* margin: 20px; */
+    cursor: pointer;
+    border: 0;
+    padding: 10px 16px;
+    border-radius: 10px;
+    background: rgb(116, 237, 100);
+    color: rgb(0, 0, 255);
+    font-family: inherit;
+    font-size: 25px;
+    transition-duration: 0.4s;
+    width: 50%;
+    margin: 0 auto;
+    
+}
+
+#fightButton:hover {
+    background: blue;
+    color:  #3be36b;
+}
+
+ 
+
+  #fightButton:hover, #clearButton:hover {
+      margin-left: 1px 1px 0;
+      box-shadow: -1px -1px 1px darkgreen;
+      outline: 1px solid darkcyan;
+      -moz-outline-radius: 7px;
+      /* background-image: linear-gradient(to top, #97e8ae, #3be36b); */
+    }
+
+#clearButton {
+    margin: 2em 0  0 2em;
+    background: rgba(0, 0, 255, 0.861);
+    color: #3be36b;
+    width: 20%;
+    border: 1px solid #3be36b;
+
+}
+
+#clearButton:hover {
+    background-color: #06f40e; /* Green */
+    color: blue;
+  
+  }
